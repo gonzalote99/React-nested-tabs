@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+}
+
+.collapsed {
+  display: block;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all .5s cubic-bezizer(0, 1, 0, 1)
+}
+
+.expanded {
+  max-height: 99em;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+li a:hover {
+  background-color: blue;
+}
